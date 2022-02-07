@@ -30,7 +30,7 @@ Basic idea:
 
 Download BED_miRNA_seed_extractor from Github repository:
 
-    git clone 
+    git clone https://github.com/Ed-G655/BED_miRNA_seed_extractor.git
 
 ------------------------------------------------------------------------
 
