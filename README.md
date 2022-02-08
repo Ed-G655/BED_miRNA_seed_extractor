@@ -38,7 +38,7 @@ Download BED_miRNA_seed_extractor from Github repository:
 
 To test BED_miRNA_seed_extractor execution using test data, run:
 
-    Rscript --vanilla ./test/sample.bed output_sample.bed
+    Rscript --vanilla extract_mirna_regions.R ./test/sample.bed output_sample.bed
 
 A example output BED file should be writed in your working directory (output_sample.bed):
 
@@ -53,7 +53,7 @@ A example output BED file should be writed in your working directory (output_sam
 
 To run BED_miRNA_seed_extractor go to the R script directory and execute:
 
-    Rscript --vanilla <Path to your BED mature miRNA file> <Output BED file name>
+    Rscript --vanilla extract_mirna_regions.R <Path to your BED mature miRNA file> <Output BED file name>
 
 ### Example input
 
